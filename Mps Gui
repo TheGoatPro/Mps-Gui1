@@ -1,0 +1,133 @@
+
+---Credits Tab
+
+
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("MPS GUI", "Synapse")
+local Tab = Window:NewTab("Information")
+local Section = Tab:NewSection("Made By: Harry!")
+local Section = Tab:NewSection("Discords:thegoatpro")
+
+
+
+
+
+--- Anti-Cheats Tab
+
+
+local Tab = Window:NewTab("Anti Cheats")
+local Section = Tab:NewSection("MPS-4-A-SIDE")
+Section:NewButton("Bypass", ".", function()
+
+    print("Clicked")
+end)
+local Section = Tab:NewSection("Mps Public")
+Section:NewButton("Bypass", ".", function()
+
+    print("Clicked")
+end)
+
+
+
+
+
+--- Mps Public Tab
+
+
+
+
+local Tab = Window:NewTab("Mps Public")
+local Section = Tab:NewSection("Firetouch")
+Section:NewButton("Enable", ".", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/JkqDH5Z4"))()
+    print("Clicked")
+end)
+Section:NewButton("Disable", ".", function()
+
+    print("Clicked")
+end)
+local Section = Tab:NewSection("Bigfoot")
+Section:NewButton("Enable", ".", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/Ka19Jr6z"))()
+    print("Clicked")
+end)
+Section:NewButton("Disable", ".", function()
+
+    print("Clicked")
+end)
+
+
+local Section =
+Tab:NewSection("Autocatch")
+Section:NewButton("Enable", ".", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/Ka19Jr6z"))()
+    print("Clicked")
+end)
+Section:NewButton("Disable", ".", function()
+
+    print("Clicked")
+end)
+
+
+
+
+local Section =
+Tab:NewSection("Ping")
+Section:NewButton("Execute", ".", function()
+
+    print("Clicked")
+end)
+
+
+local Section =
+Tab:NewSection("Crash Server")
+Section:NewButton("Crash", ".", function()
+
+    print("Clicked")
+end)
+
+local Tab = Window:NewTab("Leagues")
+local Section = Tab:NewSection("PSML")
+Section:NewButton("Enable", ".", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/JkqDH5Z4"))()
+    print("Clicked")
+end)
+Section:NewButton("Disable", ".", function()
+
+    print("Clicked")
+end)
+local Section =
+Tab:NewSection("TRS Public")
+Section:NewButton("Enable", ".", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/JkqDH5Z4"))()
+    print("Clicked")
+end)
+Section:NewButton("Disable", ".", function()
+
+    print("Clicked")
+end)
+local Section =
+Tab:NewSection("Fake PRS")
+Section:NewButton("Enable", ".", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/JkqDH5Z4"))()
+    print("Clicked")
+end)
+Section:NewButton("Disable", ".", function()
+
+    print("Clicked")
+end)
+local Section =
+Tab:NewSection("PFF")
+Section:NewButton("Enable", ".", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/JkqDH5Z4"))()
+    print("Clicked")
+end)
+Section:NewButton("Disable", ".", function()
+
+    print("Clicked")
+end)
+local Tab = Window:NewTab("Toggle")
+local Section = Tab:NewSection("TOGGLES")
+Section:NewKeybind("to hide gui", "KeybindInfo", Enum.KeyCode.P, function()
+	Library:ToggleUI()
+end
